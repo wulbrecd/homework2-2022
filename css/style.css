@@ -24,7 +24,8 @@ p {
 
 img {
     width: 350px;
-    float: center;
+    margin: auto;
+    display: block;
     border-style: dashed;
     border-color: #FFFFFF;
     border-width: 10px;
@@ -38,12 +39,12 @@ div {
     border-width: 3px;
 }
 
-div .intro {
+.intro {
     border-radius: 15px;
     margin: 15px 0 0 0;
 }
 
-div .red {
+.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -51,15 +52,14 @@ div .red {
     border-left: 10px;
 }
 
-div .blue {
+.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-right: 10px;
     border-bottom: 3px;
 }
-
-div .yellow {
+.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -67,17 +67,17 @@ div .yellow {
     border-bottom: 3px;
 }
 
-div .yellow h2 {
+.yellow h2 {
     color: #000000;
     text-shadow: #c7e2c7;
     offset: 4px 2px 4px 2px;
 }
 
-div .yellow p {
+.yellow p {
     color: #000000;
 }
 
-div .green {
+.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
