@@ -72,8 +72,7 @@ div {
 
 .yellow h2 {
     color: #000000;
-    text-shadow: #c7e2c7;
-    offset: 2px 4px #c7e2c7;
+    text-shadow: 2px 4px #c7e2c7;
 }
 
 .yellow p {
